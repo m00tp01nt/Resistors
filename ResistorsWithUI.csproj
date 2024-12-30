@@ -46,15 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Resistors\Combine.cs">
-      <Link>Combine.cs</Link>
-    </Compile>
-    <Compile Include="..\Resistors\Resistor.cs">
-      <Link>Resistor.cs</Link>
-    </Compile>
-    <Compile Include="..\Resistors\ResistorCollection.cs">
-      <Link>ResistorCollection.cs</Link>
-    </Compile>
+    <Compile Include="Classes\Combine.cs" />
+    <Compile Include="Classes\Resistor.cs" />
+    <Compile Include="Classes\ResistorCollection.cs" />
+    <Compile Include="Classes\ResistorInput.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,7 +58,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResistorInput.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
